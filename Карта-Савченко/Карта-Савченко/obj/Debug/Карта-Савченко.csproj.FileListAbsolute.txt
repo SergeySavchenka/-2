@@ -1,0 +1,11 @@
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\bin\Debug\Карта-Савченко.exe.config
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\bin\Debug\Карта-Савченко.exe
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\bin\Debug\Карта-Савченко.pdb
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта_Савченко.Form1.resources
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта_Савченко.Properties.Resources.resources
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.exe
+C:\Users\student\Desktop\Савченко 21ИС\Карта-Савченко\Карта-Савченко\obj\Debug\Карта-Савченко.pdb
