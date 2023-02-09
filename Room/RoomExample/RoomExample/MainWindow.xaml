@@ -1,0 +1,61 @@
+﻿<Window x:Class="RoomExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoomExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="545" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="145*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="365" Margin="5,39,0,0" Stroke="Black" VerticalAlignment="Top" Width="340" Fill="#FF45D2DC" Grid.Column="3" Grid.ColumnSpan="3"/>
+
+        <Label Content="Первая комната" HorizontalAlignment="Left" Margin="5,44,0,0" VerticalAlignment="Top" Grid.Column="4" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Column="5" HorizontalAlignment="Left" Height="365" Margin="305,39,0,0" Stroke="Black" VerticalAlignment="Top" Width="340" Fill="#FF9AFF85"/>
+        <Label Grid.Column="4" Content="Длина" HorizontalAlignment="Left" Margin="5,84,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.336,0.618" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="4" Content="Ширина" HorizontalAlignment="Left" Margin="5,124,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="4" Content="Число человек" HorizontalAlignment="Left" Margin="5,169,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="4" Content="Периметр" HorizontalAlignment="Left" Margin="5,214,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="4" HorizontalAlignment="Left" Margin="5,244,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="4" Content="Метраж" HorizontalAlignment="Left" Margin="5,304,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.496,3.661" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="5" Content="Вторая комната" HorizontalAlignment="Left" Margin="315,44,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Grid.Column="5" Content="Длина" HorizontalAlignment="Left" Margin="315,84,0,0" VerticalAlignment="Top"/>
+        <Label Grid.Column="5" Content="Ширина" HorizontalAlignment="Left" Margin="315,124,0,0" VerticalAlignment="Top"/>
+        <Label Grid.Column="5" Content="Число человек" HorizontalAlignment="Left" Margin="315,204,0,0" VerticalAlignment="Top"/>
+        <Label Grid.Column="5" Content="Периметр" HorizontalAlignment="Left" Margin="315,244,0,0" VerticalAlignment="Top"/>
+        <Label Grid.Column="5" Content="Площадь" HorizontalAlignment="Left" Margin="314,284,0,0" VerticalAlignment="Top"/>
+        <Label Grid.Column="5" Content="Метраж" HorizontalAlignment="Left" Margin="311,364,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ExitButton" Grid.Column="5" Content="Выход" HorizontalAlignment="Left" Margin="595,4,0,0" VerticalAlignment="Top" Width="95" Height="30" Click="ExitButton_Click"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Left" Margin="325,-36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelLength1" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="120,79,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelWidth1" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="120,119,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelNumPerson1" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="120,169,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelPerimeter1" Grid.Column="5" Content="" Margin="120,214,505,0" VerticalAlignment="Top" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelArea1" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="120,254,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelPersonArea1" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="120,304,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelPerimeter2" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="470,244,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelArea2" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="470,284,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label x:Name="LabelPersonArea2" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="470,364,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Button x:Name="ButtonOpen1" Grid.Column="3" Content="Открыть" HorizontalAlignment="Left" Margin="5,424,0,0" VerticalAlignment="Top" Width="150" Height="30" Grid.ColumnSpan="3" Click="ButtonOpen1_Click"/>
+        <Button x:Name="ButtonOpen2" Grid.Column="5" Content="Открыть" HorizontalAlignment="Left" Margin="305,424,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="ButtonOpen2_Click"/>
+        <Button x:Name="ButtonAll" Grid.Column="3" Content="Посчитать вместе" HorizontalAlignment="Left" Margin="5,469,0,0" VerticalAlignment="Top" Width="150" Height="30" Grid.ColumnSpan="3" Click="ButtonAll_Click"/>
+        <TextBlock Grid.Column="5" HorizontalAlignment="Left" Margin="170,473,0,0" TextWrapping="Wrap" Text="Общая площадь" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.095,0.539"/>
+        <Label x:Name="LabelAllArea" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="305,469,0,0" VerticalAlignment="Top" Width="125" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <TextBox x:Name="TBLength2" Grid.Column="5" HorizontalAlignment="Left" Margin="470,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="35"/>
+        <TextBox x:Name="TBWidth2" Grid.Column="5" HorizontalAlignment="Left" Margin="470,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="0.5,1.573"/>
+        <TextBox x:Name="TBNumPerson2" Grid.Column="5" HorizontalAlignment="Left" Margin="470,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="0.5,1.573"/>
+        <Label Grid.Column="5" Content="Высота" HorizontalAlignment="Left" Margin="315,164,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBHigh2" Grid.Column="5" HorizontalAlignment="Left" Margin="470,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="0.5,1.573"/>
+        <Label Grid.Column="5" Content="Объём" HorizontalAlignment="Left" Margin="315,324,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelVolume2" Grid.Column="5" Content="" HorizontalAlignment="Left" Margin="470,324,0,0" VerticalAlignment="Top" Width="100" Height="35" RenderTransformOrigin="-0.2,0.287"/>
+        <Label Grid.Column="4" Content="Площадь" HorizontalAlignment="Left" Margin="5,254,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
