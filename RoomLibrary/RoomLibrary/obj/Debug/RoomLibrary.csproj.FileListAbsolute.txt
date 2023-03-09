@@ -1,0 +1,12 @@
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\bin\Debug\RoomLibrary.dll
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\bin\Debug\RoomLibrary.pdb
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.dll
+C:\Users\student\Desktop\Савченко 21ИС\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.pdb
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\bin\Debug\RoomLibrary.dll
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\bin\Debug\RoomLibrary.pdb
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.dll
+C:\Users\student\Downloads\MDK-01.02-main (1)\MDK-01.02-main\Room\RoomLibrary\RoomLibrary\obj\Debug\RoomLibrary.pdb
