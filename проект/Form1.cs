@@ -175,30 +175,28 @@ namespace проект
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Random rand = new Random();
-            switch (rand.Next(0, 5))
-            {
-                case 0: richTextBox.BackColor = Color.Lavender; break;
-                case 1: richTextBox.BackColor = Color.Cyan; break;
-                case 2: richTextBox.BackColor = Color.Magenta; break;
-                case 3: richTextBox.BackColor = Color.Yellow; break;
-                case 4: richTextBox.BackColor = Color.Black; break;
+            ColorDialog MyDialog = new ColorDialog();
+            MyDialog.AllowFullOpen = false;
+            MyDialog.ShowHelp = true;
+            MyDialog.Color = richTextBox.ForeColor;
 
-            }
+            if (MyDialog.ShowDialog() == DialogResult.OK)
+                richTextBox.ForeColor = MyDialog.Color;
+
+
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Random rand = new Random();
-            switch (rand.Next(0, 5))
-            {
-                case 0: richTextBox.SelectionFont = new Font("Tahoma", 10, FontStyle.Bold); break;
-                case 1: richTextBox.SelectionFont = new Font("Arial", 12, FontStyle.Bold); break;
-                case 2: richTextBox.SelectionFont = new Font("Times New Roman", 14, FontStyle.Bold); break;
-                case 3: richTextBox.SelectionFont = new Font("Calibri", 16, FontStyle.Bold); break;
-                case 4: richTextBox.SelectionFont = new Font("Castellar", 18, FontStyle.Bold); break;
+        //private void button7_Click(object sender, EventArgs e)
+        //{
+            //fontDialog1.ShowColor = true;
+            //fontDialog1.Font = richTextBox.Font;
+            //fontDialog1.Color = richTextBox.ForeColor;
 
-            }
-        }
+            //if (fontDialog1.ShowDialog() ! = DialogResult.Cancel)
+            //{
+                //richTextBox.Font = fontDialog1.Font;
+               //richTextBox.ForeColor = fontDialog1.Color;
+            //}
+        //}
     }
 }
