@@ -1,0 +1,31 @@
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.Form1.resources
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.Properties.Resources.resources
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Савченко 21ИС\проект\bin\Debug\проект.exe.config
+C:\Users\student\Desktop\Савченко 21ИС\проект\bin\Debug\проект.exe
+C:\Users\student\Desktop\Савченко 21ИС\проект\bin\Debug\проект.pdb
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.exe
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.pdb
+C:\Users\student\Desktop\Савченко 21ИС\проект\obj\Debug\проект.AboutBox.resources
+C:\Users\student\Desktop\проект\bin\Debug\проект.exe.config
+C:\Users\student\Desktop\проект\bin\Debug\проект.exe
+C:\Users\student\Desktop\проект\bin\Debug\проект.pdb
+C:\Users\student\Desktop\проект\obj\Debug\проект.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\проект\obj\Debug\проект.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\проект\obj\Debug\проект.AboutBox.resources
+C:\Users\student\Desktop\проект\obj\Debug\проект.Form1.resources
+C:\Users\student\Desktop\проект\obj\Debug\проект.Properties.Resources.resources
+C:\Users\student\Desktop\проект\obj\Debug\проект.csproj.GenerateResource.cache
+C:\Users\student\Desktop\проект\obj\Debug\проект.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\проект\obj\Debug\проект.exe
+C:\Users\student\Desktop\проект\obj\Debug\проект.pdb
+C:\Users\student\Downloads\MDK-01.02-main\MDK-01.02-main\проект\obj\Debug\проект.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\MDK-01.02-main\MDK-01.02-main\проект\obj\Debug\проект.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Downloads\MDK-01.02-main\MDK-01.02-main\проект\obj\Debug\проект.exe
+C:\Users\student\Downloads\MDK-01.02-main\MDK-01.02-main\проект\obj\Debug\проект.pdb
+C:\Users\student\Desktop\проект\obj\Debug\проект.Form1.ja-JP.resources
+C:\Users\student\Desktop\проект\bin\Debug\ja-JP\проект.resources.dll
+C:\Users\student\Desktop\проект\obj\Debug\ja-JP\проект.resources.dll
